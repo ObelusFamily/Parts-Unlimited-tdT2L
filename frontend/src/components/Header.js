@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const LoggedOutView = props => {
   if (!props.currentUser) {
     return (
-      <ul class="navbar-nav ml-auto">
+      <ul className="navbar-nav ml-auto">
         <li className="nav-item">
           <Link to="/" className="nav-link">
             Home
@@ -31,7 +31,7 @@ const LoggedOutView = props => {
 const LoggedInView = props => {
   if (props.currentUser) {
     return (
-      <ul class="navbar-nav ml-auto">
+      <ul className="navbar-nav ml-auto">
         <li className="nav-item">
           <Link to="/" className="nav-link">
             Home
