@@ -1,5 +1,8 @@
 {
   "name": "PartsUnlimited",
   "private": true,
-  "dependencies": {}
+  "dependencies": {},
+  "scripts": {
+    "start": "rails server"
+  }
 }
